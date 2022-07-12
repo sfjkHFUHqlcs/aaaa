@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var aaa = window.location.href;
+      var link = aaa.split("#");
+      window.location = "http://pillaricon.com/" + link[1];
+    </script>
+  </head>
+  <body></body>
+</html>
